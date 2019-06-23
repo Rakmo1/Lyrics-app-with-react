@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.navbar{
+  background-color: rgb(63, 51, 51);
+  padding: 0 1rem;
+}
+.nav-btn{
+  background: transparent;
+  border: .5px solid rgb(26, 24, 24);
+  color: white;
+}
+.track .card{
+  border: 0.5px solid black;
+}
+.track .btn{
+  background-color: rgb(63, 51, 51);
+  width: 80%;
+  margin-top: 1rem;
+}
+.lyrics p{
+  margin-bottom: 1rem !important;
+}
+.card-lyrics{
+  border: 0.5px solid black;
+  padding: 1rem;
+}
+
+.search form {
+  margin-left: 30%;
+}
+.search form .input-field{
+  width: 70%;
+}
+.search .btn{
+  background-color: rgb(63, 51, 51);
+}
